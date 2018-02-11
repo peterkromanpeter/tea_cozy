@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-left: 40px;
 }
 
 
@@ -18,6 +19,7 @@ header {
   background-color: black;
   text-align: left;
   border-bottom: 1px solid white;
+
 }
 
 .header_image {
@@ -54,6 +56,11 @@ color: seashell;
 }
 
 .tea_of_the_month {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
   width: 1000px;
   z-index: 5;
 }
@@ -80,6 +87,11 @@ color: seashell;
   background-color: black;
   opacity: 1;
   z-index:  5;
+}
+
+.black_box {
+  width: 150px;
+  height: 150px;
 }
 
 .footer {
