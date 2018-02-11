@@ -8,7 +8,6 @@ body {
   margin-left: 40px;
 }
 
-
 header {
   height: 69px;
   padding: 10px 0px 0px 10px;
@@ -19,14 +18,11 @@ header {
   background-color: black;
   text-align: left;
   border-bottom: 1px solid white;
-
 }
 
 .header_image {
   height: 50px;
-
 }
-
 
 header nav span {
   display:inline-block;
@@ -78,6 +74,7 @@ color: seashell;
 .locations_background {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  width: 1200px;
 }
 
 .downtown, .east_bayside, .oakdale {
@@ -118,6 +115,6 @@ align-items: center;
 }
 
 .copyright {
-  text-aling: left;
+  float: left;
   margin-left: 20px;
 }
