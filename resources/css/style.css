@@ -43,6 +43,7 @@ color: seashell;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   position: relative;
   top: 70px;
+  margin-bottom: 100px;
 }
 
 .mission_bar {
@@ -56,12 +57,18 @@ color: seashell;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
   width: 1000px;
   z-index: 5;
+  position: relative;
+  left: 100px;
 }
 
 .tea_of_the_month_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  background-color: black;
   text-align: center;
 }
 
@@ -107,7 +114,14 @@ align-items: center;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  background-color: black;
+  text-align: center;
   height: 200px;
+  margin: 50px;
 }
 
 .adress {
