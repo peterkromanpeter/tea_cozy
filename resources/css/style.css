@@ -4,22 +4,26 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center:
+  text-align: center;
 }
+
 
 header {
   height: 69px;
   padding: 10px 0px 0px 10px;
   position: fixed;
   top: 0px;
+  left: 100px;
+  text-align: left;
   z-index: 10;
   background-color: black;
-  width: 1200px;
+  width: 1190px;
   border-bottom: 1px solid white;
 }
 
 .header_image {
   height: 50px;
+
 }
 
 
@@ -34,7 +38,12 @@ color: seashell;
 }
 
 .mission_background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 700px;
+  width: 1200px;
+  margin: auto;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   position: relative;
   top: 70px;
