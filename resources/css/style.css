@@ -81,6 +81,9 @@ color: seashell;
 }
 
 .downtown, .east_bayside, .oakdale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
   height: 300px;
   margin: 10px 40px 0px 0px;
@@ -92,6 +95,18 @@ color: seashell;
 .black_box {
   width: 150px;
   height: 150px;
+}
+
+.locations_background {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.location_boxes {
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer {
